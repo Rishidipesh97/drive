@@ -1,6 +1,5 @@
 from flask import flash,redirect,render_template,request,session,url_for,send_from_directory
-from first import app
-from first.forms import institute_update_form,authentications,personal_update_form
+from forms import institute_update_form,authentications,personal_update_form
 import mysql.connector
 import pandas as pd
 from datetime import datetime
